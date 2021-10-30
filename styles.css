@@ -1,0 +1,68 @@
+#section-1 {
+  display: flex;
+  padding-left: 133px;
+}
+.subheading {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
+  color: #401e09;
+  width: 144px;
+}
+.heading {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 73px;
+  color: #1d1d1d;
+}
+
+.subtitle {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 170%;
+
+  color: #1d1d1d;
+  opacity: 0.7;
+}
+
+.subtitle-bold {
+  opacity: 1;
+}
+
+.hero-image {
+  width: 782px;
+  height: 1258px;
+
+  border-radius: 0px 0px 500px 500px;
+
+  margin-top: -345px;
+  margin-right: -54px;
+}
+
+.section-1-text-container {
+  margin-right: 64px;
+}
+
+.shopnow-btn {
+  padding: 23px 66px;
+  background-color: white;
+
+  border: 3px solid #401e09;
+  border-radius: 20px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 170%;
+  margin-top: 85px;
+
+  color: #401e09;
+  text-transform: uppercase;
+}
