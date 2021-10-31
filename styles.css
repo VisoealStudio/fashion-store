@@ -133,4 +133,26 @@
   color: #1d1d1d;
   opacity: 0.7;
 }
+
+#section-3 {
+  display: flex;
+  margin-top: 226px;
+  padding-left: 100px;
+}
+
+#s3Img1{
+  height: 610px; 
+  width: 430px; 
+  object-fit: cover;
+  border-radius: 500px 500px 20px 20px;
+}
+
+#s3Img2{
+  height: 163px; 
+  width: 163px; 
+  object-fit: cover;
+  position: relative;
+  top: 350px;
+  right: -67px;
+}
 /* batas css amin */
