@@ -155,4 +155,51 @@
   top: 350px;
   right: -67px;
 }
+
+#features {
+  display: flex;
+  justify-content: space-around;
+  margin: 120px 160px 120px 160px;
+}
+
+
+.f-text1{
+  margin: 0;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 170%;
+  /* or 27px */
+  
+  color: #1D1D1D;
+}
+
+.f-text2{
+  margin: 0;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 170%;
+  
+  /* or 20px */
+  
+  color: rgba(29, 29, 29, 0.6);
+  
+  opacity: 0.7;
+}
+
+.f-container{
+  width: 305px;
+  display: flex;
+}
+
+.f-image{
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+}
 /* batas css amin */
