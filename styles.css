@@ -12,13 +12,13 @@ nav h1 {
   color: #1d1d1d;
 }
 
-nav div a:hover {
+.navitem a:hover {
   color: #1d1d1d;
 
-  text-decoration: underline;
+  text-decoration: none;
 }
 
-nav div a {
+.navitem a {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: bold;
@@ -31,12 +31,18 @@ nav div a {
   margin-right: 34px;
 }
 
-nav div a.white-txt {
+.navitem a.white-txt {
   color: white;
 }
 
-nav div {
-  margin-left: -120px;
+.navitem {
+  margin-left: 168px;
+}
+
+.navmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav {
