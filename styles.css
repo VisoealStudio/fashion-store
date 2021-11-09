@@ -376,6 +376,7 @@ nav {
   margin-right: 24px;
   width: 418px;
   height: 694px;
+  object-fit: cover;
 
   border-radius: 20px;
 }
