@@ -1,205 +1,249 @@
 #section-1 {
-  display: flex;
-  padding-left: 133px;
+   display: flex;
+   padding-left: 133px;
 }
 .subheading {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 160%;
-  color: #401e09;
-  width: 144px;
+   font-family: "DM Sans";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 160%;
+   color: #401e09;
+   width: 144px;
 }
 .heading {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 56px;
-  line-height: 73px;
-  color: #1d1d1d;
+   font-family: "DM Sans";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 56px;
+   line-height: 73px;
+   color: #1d1d1d;
 }
 
 .subtitle {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 170%;
+   font-family: "DM Sans";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 170%;
 
-  color: #1d1d1d;
-  opacity: 0.7;
+   color: #1d1d1d;
+   opacity: 0.7;
 }
 
 .subtitle-bold {
-  opacity: 1;
+   opacity: 1;
 }
 
 .hero-image {
-  width: 782px;
-  height: 1258px;
+   width: 782px;
+   height: 1258px;
 
-  border-radius: 0px 0px 500px 500px;
+   border-radius: 0px 0px 500px 500px;
 
-  margin-top: -345px;
-  margin-right: -54px;
+   margin-top: -345px;
+   margin-right: -54px;
 }
 
 .section-1-text-container {
-  margin-right: 64px;
+   margin-right: 64px;
 }
 
 .shopnow-btn {
-  padding: 23px 66px;
-  background-color: white;
+   padding: 23px 66px;
+   background-color: white;
 
-  border: 3px solid #401e09;
-  border-radius: 20px;
+   border: 3px solid #401e09;
+   border-radius: 20px;
 
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 170%;
-  margin-top: 85px;
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 170%;
+   margin-top: 85px;
 
-  color: #401e09;
-  text-transform: uppercase;
+   color: #401e09;
+   text-transform: uppercase;
 }
 
 /* batas css amin */
 
 #section-2 {
-  display: flex;
-  margin-top: 120px;
-  padding-left: 100px;
+   display: flex;
+   margin-top: 120px;
+   padding-left: 100px;
 }
 
-#s2Img1{
-  height: 610px; 
-  width: 430px; 
-  object-fit: cover;
-  border-radius: 500px 500px 20px 20px;
+#s2Img1 {
+   height: 610px;
+   width: 430px;
+   object-fit: cover;
+   border-radius: 500px 500px 20px 20px;
 }
 
-#s2Img2{
-  height: 163px; 
-  width: 163px; 
-  object-fit: cover;
-  position: relative;
-  top: 297px;
-  left: -84px;
+#s2Img2 {
+   height: 163px;
+   width: 163px;
+   object-fit: cover;
+   position: relative;
+   top: 297px;
+   left: -84px;
 }
 
-.text1{
-  margin-top: 0;
-  margin-bottom: 0;
+.text1 {
+   margin-top: 0;
+   margin-bottom: 0;
 
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 160%;
+   font-family: "DM Sans";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 160%;
 
-  color: #401e09;
+   color: #401e09;
 }
 
-.text2{
-  margin-top: 16px;
-  margin-bottom: 0;
-  width: 532px;
+.text2 {
+   margin-top: 16px;
+   margin-bottom: 0;
+   width: 532px;
 
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 56px;
-  
-  line-height: 78.4px;
-  
-  color: #1D1D1D;
+   font-family: "DM Sans";
+   font-style: normal;
+   font-weight: bold;
+   font-size: 56px;
+
+   line-height: 78.4px;
+
+   color: #1d1d1d;
 }
 
-.text3{
-  margin-top: 32;
-  margin-bottom: 0;
-  width: 532px;
+.text3 {
+   margin-top: 32;
+   margin-bottom: 0;
+   width: 532px;
 
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 170%;
+   font-family: "DM Sans";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 170%;
 
-  color: #1d1d1d;
-  opacity: 0.7;
+   color: #1d1d1d;
+   opacity: 0.7;
 }
 
 #section-3 {
-  display: flex;
-  margin-top: 226px;
-  padding-left: 100px;
+   display: flex;
+   margin-top: 226px;
+   padding-left: 100px;
 }
 
-#s3Img1{
-  height: 610px; 
-  width: 430px; 
-  object-fit: cover;
-  border-radius: 500px 500px 20px 20px;
+#s3Img1 {
+   height: 610px;
+   width: 430px;
+   object-fit: cover;
+   border-radius: 500px 500px 20px 20px;
 }
 
-#s3Img2{
-  height: 163px; 
-  width: 163px; 
-  object-fit: cover;
-  position: relative;
-  top: 350px;
-  right: -67px;
+#s3Img2 {
+   height: 163px;
+   width: 163px;
+   object-fit: cover;
+   position: relative;
+   top: 350px;
+   right: -67px;
 }
 
 #features {
-  display: flex;
-  justify-content: space-around;
-  margin: 120px 160px 120px 160px;
+   display: flex;
+   justify-content: space-around;
+   margin: 120px 160px 120px 160px;
 }
 
+.f-text1 {
+   margin: 0;
 
-.f-text1{
-  margin: 0;
-  
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 170%;
-  /* or 27px */
-  
-  color: #1D1D1D;
+   font-family: "DM Sans";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 48px;
+
+   color: #ffffff;
 }
 
-.f-text2{
-  margin: 0;
-  
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 170%;
-  
-  /* or 20px */
-  
-  color: rgba(29, 29, 29, 0.6);
-  
-  opacity: 0.7;
+.f-text2 {
+   font-family: "DM Sans";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 32px;
+
+   color: rgba(255, 255, 255, 0.5);
+   letter-spacing: 3px;
+   text-transform: uppercase;
 }
 
-.f-container{
-  width: 305px;
-  display: flex;
+.f-text3 a {
+   margin: 0;
+   display: block;
+   font-family: "DM Sans";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 32px;
+
+   text-decoration: none;
+
+   color: #ffffff;
 }
 
-.f-image{
-  width: 48px;
-  height: 48px;
-  margin-right: 16px;
+.f-text4 {
+   margin: 0;
+   font-family: "DM Sans";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 32px;
+
+   color: rgba(255, 255, 255, 0.502972);
 }
+
+.f-container {
+   width: 305px;
+   display: flex;
+}
+
+.f-image {
+   width: 48px;
+   height: 48px;
+   margin-right: 16px;
+}
+
+.f-line {
+   /* position: absolute;
+   width: 1100px; */
+   height: 2px;
+
+   margin: 50px 30px 30px 30px;
+   background: #ffffff;
+   mix-blend-mode: normal;
+   opacity: 0.08;
+}
+
+.myFooter {
+   color: #ffffff;
+   background-color: #401e09;
+
+   padding: 110px 140px 50px 130px;
+}
+
+.imgMedsos {
+   width: 50px;
+   height: 50px;
+   padding: 5px;
+}
+
 /* batas css amin */
