@@ -1,34 +1,89 @@
+body {
+  overflow-x: hidden;
+}
+* {
+  font-family: "DM Sans";
+}
+
 #section-1 {
    display: flex;
    padding-left: 133px;
 }
+
+nav h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 73px;
+  color: #1d1d1d;
+}
+
+.navitem a:hover {
+  color: #1d1d1d;
+
+  text-decoration: none;
+}
+
+.navitem a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #1d1d1d;
+  text-decoration: none;
+
+  margin-right: 34px;
+}
+
+.navitem a.white-txt {
+  color: white;
+}
+
+.navitem {
+  margin-left: 168px;
+}
+
+.navmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  margin-left: 134px;
+  margin-right: 134px;
+  margin-top: 46px;
+  margin-bottom: 129px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .subheading {
-   font-family: "DM Sans";
-   font-style: normal;
-   font-weight: bold;
-   font-size: 16px;
-   line-height: 160%;
-   color: #401e09;
-   width: 144px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
+  color: #401e09;
+  width: 144px;
 }
 .heading {
-   font-family: "DM Sans";
-   font-style: normal;
-   font-weight: bold;
-   font-size: 56px;
-   line-height: 73px;
-   color: #1d1d1d;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 73px;
+  color: #1d1d1d;
 }
 
 .subtitle {
-   font-family: "DM Sans";
-   font-style: normal;
-   font-weight: normal;
-   font-size: 20px;
-   line-height: 170%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 170%;
 
-   color: #1d1d1d;
-   opacity: 0.7;
+  color: #1d1d1d;
+  opacity: 0.7;
 }
 
 .subtitle-bold {
@@ -41,12 +96,20 @@
 
    border-radius: 0px 0px 500px 500px;
 
-   margin-top: -345px;
-   margin-right: -54px;
+.hero-image {
+  width: 782px;
+  height: 1258px;
+
+  border-radius: 0px 0px 500px 500px;
+
+  margin-top: -568px;
+  margin-right: -81px;
+  position: relative;
+  z-index: -1;
 }
 
 .section-1-text-container {
-   margin-right: 64px;
+  margin-right: 92px;
 }
 
 .shopnow-btn {
@@ -245,5 +308,134 @@
    height: 50px;
    padding: 5px;
 }
-
+  
 /* batas css amin */
+
+#holiday-timer {
+  background-image: url("assets/holiday-timer-bg.png");
+  background-size: cover;
+
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 77px;
+  padding-bottom: 77px;
+  /* filter: saturate(75%) brightness(60%); */
+}
+
+.holiday-text {
+  font-size: 56px;
+  line-height: 73px;
+
+  text-align: center;
+  color: #ffffff;
+}
+
+.holiday-time {
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+.timer-titik2 {
+  margin-top: -50px;
+}
+
+#holiday-timer button {
+  outline: none;
+  border: none;
+  background: #401e09;
+  border-radius: 20px;
+  filter: drop-shadow(0px 10px 35px rgba(70, 57, 37, 0.2));
+
+  font-size: 20px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  padding: 18px 48px;
+  margin-top: 24px;
+}
+
+.holiday-time h1 {
+  font-size: 64px;
+}
+
+.timer-days {
+  margin-right: 109px;
+}
+
+.timer-seconds {
+  margin-left: 44px;
+}
+
+#gallery {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#gallery h1 {
+  max-width: 872px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 73px;
+
+  /* or 130% */
+  text-align: center;
+
+  color: #1d1d1d;
+  overflow: hidden;
+}
+
+#gallery p {
+  margin-top: 32px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 170%;
+
+  /* identical to box height, or 34px */
+
+  color: #1d1d1d;
+
+  opacity: 0.7;
+}
+
+.galleryimg {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 98px;
+}
+.galleryimg img {
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 418px;
+  height: 694px;
+  object-fit: cover;
+
+  border-radius: 20px;
+}
+
+.galleryimg img:nth-child(odd) {
+  position: relative;
+  top: 98px;
+}
