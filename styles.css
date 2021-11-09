@@ -11,7 +11,6 @@ body {
 }
 
 nav h1 {
-  font-style: normal;
   font-weight: bold;
   font-size: 32px;
   line-height: 73px;
@@ -25,7 +24,6 @@ nav h1 {
 }
 
 .navitem a {
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 18px;
@@ -61,7 +59,6 @@ nav {
 }
 
 .subheading {
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 160%;
@@ -69,7 +66,6 @@ nav {
   width: 144px;
 }
 .heading {
-  font-style: normal;
   font-weight: bold;
   font-size: 56px;
   line-height: 73px;
@@ -77,7 +73,6 @@ nav {
 }
 
 .subtitle {
-  font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 170%;
@@ -119,12 +114,12 @@ nav {
    border: 3px solid #401e09;
    border-radius: 20px;
 
-   font-family: "Montserrat";
-   font-style: normal;
-   font-weight: 600;
-   font-size: 24px;
-   line-height: 170%;
-   margin-top: 85px;
+  font-family: "Montserrat";
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 170%;
+  margin-top: 85px;
 
    color: #401e09;
    text-transform: uppercase;
@@ -158,11 +153,9 @@ nav {
    margin-top: 0;
    margin-bottom: 0;
 
-   font-family: "DM Sans";
-   font-style: normal;
-   font-weight: bold;
-   font-size: 16px;
-   line-height: 160%;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
 
    color: #401e09;
 }
@@ -172,11 +165,8 @@ nav {
    margin-bottom: 0;
    width: 532px;
 
-   font-family: "DM Sans";
-   font-style: normal;
-   font-weight: bold;
-   font-size: 56px;
-
+  font-weight: bold;
+  font-size: 56px;
    line-height: 78.4px;
 
    color: #1d1d1d;
@@ -187,11 +177,9 @@ nav {
    margin-bottom: 0;
    width: 532px;
 
-   font-family: "DM Sans";
-   font-style: normal;
-   font-weight: normal;
-   font-size: 20px;
-   line-height: 170%;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 170%;
 
    color: #1d1d1d;
    opacity: 0.7;
@@ -228,11 +216,12 @@ nav {
 .f-text1 {
    margin: 0;
 
-   font-family: "DM Sans";
-   font-style: normal;
-   font-weight: 500;
-   font-size: 40px;
-   line-height: 48px;
+  font-family: Montserrat;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 170%;
+  /* or 27px */
 
    color: #ffffff;
 }
@@ -244,10 +233,11 @@ nav {
    font-size: 16px;
    line-height: 32px;
 
-   color: rgba(255, 255, 255, 0.5);
-   letter-spacing: 3px;
-   text-transform: uppercase;
-}
+  font-family: Montserrat;
+
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 170%;
 
 .f-text3 a {
    margin: 0;
@@ -315,7 +305,6 @@ nav {
   background-image: url("assets/holiday-timer-bg.png");
   background-size: cover;
 
-  font-style: normal;
   font-weight: bold;
   color: white;
 
@@ -391,7 +380,6 @@ nav {
 #gallery h1 {
   max-width: 872px;
 
-  font-style: normal;
   font-weight: bold;
   font-size: 56px;
   line-height: 73px;
@@ -406,7 +394,6 @@ nav {
 #gallery p {
   margin-top: 32px;
 
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 170%;
@@ -438,4 +425,82 @@ nav {
 .galleryimg img:nth-child(odd) {
   position: relative;
   top: 98px;
+}
+
+#testimonial {
+  margin-top: 98px;
+  display: flex;
+  align-items: center;
+  padding-left: 135px;
+}
+
+.testimonial-img {
+  width: 533px;
+  height: 627px;
+
+  border-radius: 20px;
+  object-fit: cover;
+}
+.testimonies-container {
+  margin-left: 78px;
+}
+
+.testimonies-container p {
+  font-weight: bold;
+  font-size: 16px;
+  color: #401e09;
+}
+
+.testimonies-container h1 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 140%;
+
+  letter-spacing: -0.02em;
+
+  color: #1d1d1d;
+  margin-bottom: 55px;
+}
+
+.testimonies-items {
+  display: flex;
+}
+
+.testimonies-item {
+  padding: 38px 48px 26px 48px;
+  box-sizing: border-box;
+  border-radius: 24px;
+  background: #401e09;
+  border: 1px solid #401e09;
+  margin-right: 48px;
+}
+
+.testimonies-item p {
+  width: 374px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+
+  color: rgba(255, 255, 255, 0.502972);
+}
+.testimonies-item h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+  margin-bottom: -8px;
+}
+
+.testimonies-nav {
+  margin-top: 64px;
+}
+
+.testimonies-nav img {
+  width: 32px;
+  height: 32px;
+  margin-right: 40px;
 }
