@@ -219,6 +219,34 @@ nav {
    margin: 120px 160px 120px 160px;
 }
 
+.feat-text1{
+  margin: 0;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 170%;
+  /* or 27px */
+
+  color: #1D1D1D;
+}
+.feat-text2{
+  margin: 0;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 170%;
+
+  /* or 20px */
+
+  color: rgba(29, 29, 29, 0.6);
+
+  opacity: 0.7;
+}
+
 .f-text1 {
    margin: 0;
 
