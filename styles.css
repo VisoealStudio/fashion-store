@@ -1,10 +1,16 @@
+body {
+  overflow-x: hidden;
+}
+* {
+  font-family: "DM Sans";
+}
+
 #section-1 {
   display: flex;
   padding-left: 133px;
 }
 
 nav h1 {
-  font-family: "DM Sans";
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -19,7 +25,6 @@ nav h1 {
 }
 
 .navitem a {
-  font-family: "DM Sans";
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -56,7 +61,6 @@ nav {
 }
 
 .subheading {
-  font-family: "DM Sans";
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -65,7 +69,6 @@ nav {
   width: 144px;
 }
 .heading {
-  font-family: "DM Sans";
   font-style: normal;
   font-weight: bold;
   font-size: 56px;
@@ -74,7 +77,6 @@ nav {
 }
 
 .subtitle {
-  font-family: "DM Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -150,7 +152,6 @@ nav {
   margin-top: 0;
   margin-bottom: 0;
 
-  font-family: "DM Sans";
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -164,7 +165,6 @@ nav {
   margin-bottom: 0;
   width: 532px;
 
-  font-family: "DM Sans";
   font-style: normal;
   font-weight: bold;
   font-size: 56px;
@@ -179,7 +179,6 @@ nav {
   margin-bottom: 0;
   width: 532px;
 
-  font-family: "DM Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -261,7 +260,7 @@ nav {
 #holiday-timer {
   background-image: url("assets/holiday-timer-bg.png");
   background-size: cover;
-  font-family: "DM Sans";
+
   font-style: normal;
   font-weight: bold;
   color: white;
@@ -324,4 +323,65 @@ nav {
 
 .timer-seconds {
   margin-left: 44px;
+}
+
+#gallery {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#gallery h1 {
+  max-width: 872px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 73px;
+
+  /* or 130% */
+  text-align: center;
+
+  color: #1d1d1d;
+  overflow: hidden;
+}
+
+#gallery p {
+  margin-top: 32px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 170%;
+
+  /* identical to box height, or 34px */
+
+  color: #1d1d1d;
+
+  opacity: 0.7;
+}
+
+.galleryimg {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 98px;
+}
+.galleryimg img {
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 418px;
+  height: 694px;
+  object-fit: cover;
+
+  border-radius: 20px;
+}
+
+.galleryimg img:nth-child(odd) {
+  position: relative;
+  top: 98px;
 }
